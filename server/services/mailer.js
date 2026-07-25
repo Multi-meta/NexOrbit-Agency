@@ -18,11 +18,16 @@ function createTransporter() {
   }
 
   return nodemailer.createTransport({
-    service: 'gmail',
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true, // SSL
     auth: {
       user: process.env.GMAIL_USER,
       pass: process.env.GMAIL_PASS,
     },
+    connectionTimeout: 10000, // 10 seconds
+    socketTimeout: 10000,     // 10 seconds
+    greetingTimeout: 10000,   // 10 seconds
   });
 }
 
