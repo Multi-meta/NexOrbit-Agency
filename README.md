@@ -9,9 +9,10 @@ Here's everything you need to know about how I built it and how it works!
 
 ## 🔗 Live Links & Walkthrough
 
-- **Live Public Site:** `[Paste your Vercel URL here]`
-- **Admin Dashboard:** `[Paste your Vercel URL here]/admin`
-- **Backend API:** `[Paste your Render URL here]`
+- **Live Public Site:** https://nex-orbit-agency.vercel.app
+- **Admin Dashboard:** https://nex-orbit-agency.vercel.app/admin
+- **Backend API:** https://nexorbit-agency.onrender.com
+- **GitHub Repository:** https://github.com/Multi-meta/NexOrbit-Agency
 
 *(Note: Admin test credentials have been excluded from this public repository for security purposes. They will be provided privately for evaluation.)*
 
